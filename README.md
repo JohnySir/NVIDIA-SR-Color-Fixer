@@ -2,6 +2,8 @@
 
 A simple Python script to fix the inverted red/blue color bug caused by the NVIDIA App's high-resolution photo mode.
 
+![Screenshot](https://raw.githubusercontent.com/JohnySir/NVIDIA-SR-Color-Fixer/refs/heads/main/assets/UntitledDiff%20(1).png "Screenshot")
+
 ## 🔴 The Issue
 There is a known bug triggered by a conflict between recent Windows security updates and the **NVIDIA App**. When using the **Super-Resolution** feature to upscale a capture, the software mistakenly flips the red and blue color channels—saving the final image file in a **BGR** format instead of the standard **RGB** format.
 
